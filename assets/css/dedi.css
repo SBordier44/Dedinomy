@@ -1,0 +1,40 @@
+@charset "utf-8";
+body {
+    background-color:transparent;
+}
+.pseudo {
+    font-family: "Arial", Gadget, sans-serif;
+    color: grey;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: bold;
+    font-variant: normal;
+    text-transform: none;
+}
+.message {
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 12px;
+    color: black;
+    font-style: normal;
+    line-height: normal;
+    font-weight: bold;
+    font-variant: normal;
+    text-transform: none;
+}
+.datetime
+{
+    color:grey;
+    font-size: small;
+}
+.marquee {
+    display: inline-block;
+    width: 100%;
+    border: 0px solid #ccc;
+    background: transparent;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.spacer{
+    margin: 6px;
+}

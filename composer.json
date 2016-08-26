@@ -1,0 +1,25 @@
+{
+  "name": "nuboxdevcom/dedinomy",
+  "description": "Script de dédicaces",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "NuBOX DevCom",
+      "email": "slye@nubox.fr"
+    }
+  ],
+  "require": {
+    "php": ">= 5.6",
+    "google/recaptcha": "^1.1",
+    "smarty/smarty": "^3.1",
+    "phpmailer/phpmailer": "^5.2",
+    "visualappeal/php-auto-update": "^0.9.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dedinomy\\": "dashboard/CoreClasses/",
+      "Dedinomy\\Plugins\\": "dashboard/Plugins/"
+    }
+  }
+}
